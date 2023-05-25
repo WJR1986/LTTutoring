@@ -17,7 +17,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="CSS/styles.css" rel="stylesheet" />
         <script src="JS/bootstrap.bundle.min.js"></script>
-        <script src="https://kit.fontawesome.com/17e7e77638.js" crossorigin="anonymous"></script>
+
       
 
     </head>
@@ -25,35 +25,46 @@
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-md navbar-dark bg-navbar mb-4 fw-bolder">
-                <div class="container">
-                  <a class="navbar-brand" href="index.html"> <img src="assets/main-logo.png" alt=""> </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 ">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="FAQ.html">FAQs</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact</a>
-                      </li>
-                    </ul>
-
-                  </div>
+              <div class="container">
+                <a class="navbar-brand mob-brand" href="index.html">
+                  <img src="assets/main-logo.png" class="mob-brand" alt="" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarCollapse"
+                  aria-controls="navbarCollapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-3 mb-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="index.html"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="FAQ.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                  </ul>
                 </div>
-              </nav>
+              </div>
+            </nav>
             <!-- Page content-->
             
                 <div class="container form-margin px-5 my-5">
-                  <div class="card shadow border-0 rounded-4 mb-5">
-                    <div class="card-body p-5 rounded-4 " style="background-image: url(assets/wallpaper-greentint.png); opacity: 0.6;">
+                  <div class="card shadow border-0 rounded-4 mb-5 p-3">
+                    <div class="card-body p-0 rounded-4 " style="background-image: url(assets/wallpaper-greentint.png); opacity: 0.6;">
                               <div class="form-container text-center fw-bolder text-black">
                                     <h2 class="form-header text-black">Contact Me</h2>
                                     <form action="https://docs.google.com/forms/d/e/1FAIpQLSeVFCk3U9URfAFnnxPbR7m-fHLCeG0atBmpQwjutJUsfUHkFw/formResponse" method="post">
@@ -89,7 +100,7 @@
                   <div class="col-auto">
                       <a class="small footer-color" href="#!">Privacy</a>
                       <span class="mx-1">&middot;</span>
-                      <a class="small footer-color" href="#!">Terms</a>
+                      <a class="small footer-color" href="documents/tandcs.pdf" target="_blank">Terms</a>
                       <span class="mx-1">&middot;</span>
                       <a class="small footer-color" href="contact.html">Contact</a>
                   </div>
