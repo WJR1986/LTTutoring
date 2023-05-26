@@ -12276,7 +12276,7 @@ html {
   }
 
   .textswap {
-    background-image: url(../assets/LTTLogoSquare.png); /* Set the smaller image as a background */
+    background-image: url("/assets/LTTLogoSquare.png"); /* Set the smaller image as a background */
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -12290,7 +12290,7 @@ html {
     border-top: 0 !important;
   }
   .small-image {
-    content: url(../assets/LogoTSBGcropped.png); /* Set the smaller image as the content */
+    content: url("/assets/LogoTSBGcropped.png"); /* Set the smaller image as the content */
     display: inline-block;
     width: 100%;
     margin: 0 5px 5px; /* Adjust the margin as needed */
@@ -12301,12 +12301,14 @@ html {
 
 @media only screen and (max-width: 1024px) {
   .small-image {
-    content: url(../assets/Main-Logo2.png); /* Set the smaller image as the content */
+    content: url("/assets/Main-Logo2-squared.png"); /* Set the smaller image as the content */
     display: inline-block;
-    width: 50%;
+    position: relative;
+    
+    height: 50%;   
     margin: 0 5px 5px; /* Adjust the margin as needed */
     /* Adjust the maximum width as needed */
-    height: 50%;
+   
   }
   .big-image{
     display: none;
