@@ -12253,7 +12253,7 @@ html {
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-    padding: 50px; /* Adjust the padding as needed */
+    padding: 20px; /* Adjust the padding as needed */
     text-align: center;
     font-size: 18px; /* Adjust the font size as needed */
   }
@@ -12263,7 +12263,7 @@ html {
     border-top: 0 !important;
   }
   .small-image {
-    content: url(/assets/LTTLogoSquare.png); /* Set the smaller image as the content */
+    content: url("/assets/LogoTSBGcropped.png"); /* Set the smaller image as the content */
     display: inline-block;
     width: 100%;
     margin: 0 5px 5px; /* Adjust the margin as needed */
