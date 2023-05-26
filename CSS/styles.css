@@ -12310,7 +12310,7 @@ html {
   }
 
   .mob-brand {
-    max-width: 75%;
+    max-width: 75vw;
     margin-right: 0 !important;
   }
 }
