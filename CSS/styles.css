@@ -12263,7 +12263,7 @@ html {
     border-top: 0 !important;
   }
   .small-image {
-    content: url("assets/LogoTSBGcropped.png"); /* Set the smaller image as the content */
+    content: url("assets/LTTLogoSquare.png"); /* Set the smaller image as the content */
     display: inline-block;
     width: 100%;
     margin: 0 5px 5px; /* Adjust the margin as needed */
