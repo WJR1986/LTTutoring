@@ -3973,7 +3973,7 @@ fieldset:disabled .btn {
   display: flex;
   flex-direction: column;
   padding-left: 50%;
-  
+  font-size: larger;
   margin-bottom: 0;
   list-style: none;
 }
@@ -12301,7 +12301,7 @@ html {
 
 @media only screen and (max-width: 1024px) {
   .small-image {
-    content: url(../assets/LogoTSBGcropped.png); /* Set the smaller image as the content */
+    content: url(../assets/Main-Logo2.png); /* Set the smaller image as the content */
     display: inline-block;
     width: 50%;
     margin: 0 5px 5px; /* Adjust the margin as needed */
@@ -12367,4 +12367,9 @@ html {
   .about-pad {
     padding-bottom: 3rem;
   }
+}
+
+.logo-style {
+  height: 75%;
+  width: 75%;
 }
