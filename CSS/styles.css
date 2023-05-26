@@ -12301,12 +12301,17 @@ html {
   }
 
   .mob-button {
-    width: fit-content;
+    width: 75%;
      
   }
 
   .about-pad-mob { 
     padding-bottom: 0rem !important;
+  }
+
+  .mob-brand {
+    max-width: 75%;
+    margin-right: 0 !important;
   }
 }
 
